@@ -1,0 +1,15 @@
+meme_dict = {
+            "cringe": "algo excepcionalmente raro o embarazoso",
+            "lol": "una respuesta común a algo gracioso",
+            "xd":"se rie",
+            "tonces":"como esta informal",
+            "ole":"hola informal",
+            "socio":"amigo"
+            }
+word = input("Escribe una palabra que no entiendas").lower()
+if word in meme_dict.keys():
+    print(word,":",meme_dict[word])
+    # ¿Qué debemos hacer si se encuentra la palabra?
+else:
+    print("no se encontro ningun resultado")
+    # ¿Qué hacer si no se encuentra la palabra?
